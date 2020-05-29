@@ -1,7 +1,7 @@
 #! /bin/bash
 
 cmake \
-    -G "Visual Studio 14 2015 Win64" \
+    -G "Visual Studio 14 2015" \
     -DCMAKE_BUILD_TYPE=Release \
     -DBUILD_TESTING=FALSE \
     -DEMBREE_ISPC_SUPPORT=TRUE \
